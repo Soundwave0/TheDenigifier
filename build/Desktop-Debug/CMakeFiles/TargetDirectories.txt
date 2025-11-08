@@ -1,0 +1,9 @@
+/home/konchan/Programs/TheDenigifier/build/Desktop-Debug/CMakeFiles/TheDenigifier.dir
+/home/konchan/Programs/TheDenigifier/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/konchan/Programs/TheDenigifier/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/konchan/Programs/TheDenigifier/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/konchan/Programs/TheDenigifier/build/Desktop-Debug/CMakeFiles/install.dir
+/home/konchan/Programs/TheDenigifier/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/konchan/Programs/TheDenigifier/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/konchan/Programs/TheDenigifier/build/Desktop-Debug/CMakeFiles/TheDenigifier_autogen_timestamp_deps.dir
+/home/konchan/Programs/TheDenigifier/build/Desktop-Debug/CMakeFiles/TheDenigifier_autogen.dir
