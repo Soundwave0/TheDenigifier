@@ -2,12 +2,15 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QString>
 
-QT_BEGIN_NAMESPACE
-namespace Ui {
-class MainWindow;
-}
-QT_END_NAMESPACE
+// Forward declarations - NO UI namespace!
+class QVBoxLayout;
+class QHBoxLayout;
+class QPushButton;
+class QLabel;
+class QLineEdit;
+class QTextEdit;
 
 class MainWindow : public QMainWindow
 {
@@ -17,7 +20,40 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void browseInputFile();
+    void browseOutputFile();
+    void processFiles();
+    void clearLog();
+
 private:
-    Ui::MainWindow *ui;
+    void setupUI();
+    void setupConnections();
+    void logMessage(const QString &message);
+    void processDeobfuscation();
+
+    // UI elements
+    QWidget *centralWidget;
+    QVBoxLayout *mainLayout;
+
+    QLabel *titleLabel;
+    QLabel *inputLabel;
+    QLineEdit *inputFileLineEdit;
+    QPushButton *inputBrowseButton;
+
+    QLabel *outputLabel;
+    QLineEdit *outputFileLineEdit;
+    QPushButton *outputBrowseButton;
+
+    QPushButton *processButton;
+    QPushButton *clearButton;
+
+    QLabel *logLabel;
+    QTextEdit *logTextEdit;
+
+    // File paths storage
+    QString m_inputFilePath;
+    QString m_outputFilePath;
 };
+
 #endif // MAINWINDOW_H
