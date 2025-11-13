@@ -227,6 +227,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheDenigifier.dir/build.make CMakeFiles/TheDenigifier.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+ptom.o: ptom.c.o
+.PHONY : ptom.o
+
+# target to build an object file
+ptom.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheDenigifier.dir/build.make CMakeFiles/TheDenigifier.dir/ptom.c.o
+.PHONY : ptom.c.o
+
+ptom.i: ptom.c.i
+.PHONY : ptom.i
+
+# target to preprocess a source file
+ptom.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheDenigifier.dir/build.make CMakeFiles/TheDenigifier.dir/ptom.c.i
+.PHONY : ptom.c.i
+
+ptom.s: ptom.c.s
+.PHONY : ptom.s
+
+# target to generate assembly for a file
+ptom.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheDenigifier.dir/build.make CMakeFiles/TheDenigifier.dir/ptom.c.s
+.PHONY : ptom.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -247,6 +271,9 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... ptom.o"
+	@echo "... ptom.i"
+	@echo "... ptom.s"
 .PHONY : help
 
 

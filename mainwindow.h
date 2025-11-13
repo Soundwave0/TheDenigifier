@@ -30,7 +30,6 @@ private:
     void setupUI();
     void setupConnections();
     void logMessage(const QString &message);
-    void processDeobfuscation();
 
     // UI elements
     QWidget *centralWidget;

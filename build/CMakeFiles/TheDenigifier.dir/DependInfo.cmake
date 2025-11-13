@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/konchan/Programs/TheDenigifier/ptom.c" "CMakeFiles/TheDenigifier.dir/ptom.c.o" "gcc" "CMakeFiles/TheDenigifier.dir/ptom.c.o.d"
   "" "TheDenigifier_autogen/timestamp" "custom" "TheDenigifier_autogen/deps"
   "/home/konchan/Programs/TheDenigifier/build/TheDenigifier_autogen/mocs_compilation.cpp" "CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.o.d"
   "/home/konchan/Programs/TheDenigifier/main.cpp" "CMakeFiles/TheDenigifier.dir/main.cpp.o" "gcc" "CMakeFiles/TheDenigifier.dir/main.cpp.o.d"

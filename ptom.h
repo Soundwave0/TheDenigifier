@@ -1,15 +1,17 @@
-#ifndef _PTOM_H_
-#define _PTOM_H_
+#ifndef PTOM_H
+#define PTOM_H
 
-
-typedef unsigned char u8;
-typedef unsigned short u16;
-typedef unsigned int u32;
-typedef unsigned long long u64;
-
-extern float ptom_getVersion();
-extern int ptom_parse(char* mpath, char *ppath);
-extern int ptom_init();
-extern void ptom_deinit();
-
+#ifdef __cplusplus
+extern "C" {
 #endif
+
+int ptom_init(void);
+int ptom_parse(char* mpath, char* ppath);
+void ptom_deinit(void);
+float ptom_getVersion(void);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // PTOM_H

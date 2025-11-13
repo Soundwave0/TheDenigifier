@@ -79,49 +79,64 @@ CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.o: CMake
 CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.o: TheDenigifier_autogen/mocs_compilation.cpp
 CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.o: CMakeFiles/TheDenigifier.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/konchan/Programs/TheDenigifier/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.o"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.o -MF CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.o -c /home/konchan/Programs/TheDenigifier/build/TheDenigifier_autogen/mocs_compilation.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.o -MF CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.o -c /home/konchan/Programs/TheDenigifier/build/TheDenigifier_autogen/mocs_compilation.cpp
 
 CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/konchan/Programs/TheDenigifier/build/TheDenigifier_autogen/mocs_compilation.cpp > CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/konchan/Programs/TheDenigifier/build/TheDenigifier_autogen/mocs_compilation.cpp > CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/konchan/Programs/TheDenigifier/build/TheDenigifier_autogen/mocs_compilation.cpp -o CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/konchan/Programs/TheDenigifier/build/TheDenigifier_autogen/mocs_compilation.cpp -o CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/TheDenigifier.dir/main.cpp.o: CMakeFiles/TheDenigifier.dir/flags.make
 CMakeFiles/TheDenigifier.dir/main.cpp.o: /home/konchan/Programs/TheDenigifier/main.cpp
 CMakeFiles/TheDenigifier.dir/main.cpp.o: CMakeFiles/TheDenigifier.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/konchan/Programs/TheDenigifier/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TheDenigifier.dir/main.cpp.o"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TheDenigifier.dir/main.cpp.o -MF CMakeFiles/TheDenigifier.dir/main.cpp.o.d -o CMakeFiles/TheDenigifier.dir/main.cpp.o -c /home/konchan/Programs/TheDenigifier/main.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TheDenigifier.dir/main.cpp.o -MF CMakeFiles/TheDenigifier.dir/main.cpp.o.d -o CMakeFiles/TheDenigifier.dir/main.cpp.o -c /home/konchan/Programs/TheDenigifier/main.cpp
 
 CMakeFiles/TheDenigifier.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TheDenigifier.dir/main.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/konchan/Programs/TheDenigifier/main.cpp > CMakeFiles/TheDenigifier.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/konchan/Programs/TheDenigifier/main.cpp > CMakeFiles/TheDenigifier.dir/main.cpp.i
 
 CMakeFiles/TheDenigifier.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TheDenigifier.dir/main.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/konchan/Programs/TheDenigifier/main.cpp -o CMakeFiles/TheDenigifier.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/konchan/Programs/TheDenigifier/main.cpp -o CMakeFiles/TheDenigifier.dir/main.cpp.s
 
 CMakeFiles/TheDenigifier.dir/mainwindow.cpp.o: CMakeFiles/TheDenigifier.dir/flags.make
 CMakeFiles/TheDenigifier.dir/mainwindow.cpp.o: /home/konchan/Programs/TheDenigifier/mainwindow.cpp
 CMakeFiles/TheDenigifier.dir/mainwindow.cpp.o: CMakeFiles/TheDenigifier.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/konchan/Programs/TheDenigifier/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TheDenigifier.dir/mainwindow.cpp.o"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TheDenigifier.dir/mainwindow.cpp.o -MF CMakeFiles/TheDenigifier.dir/mainwindow.cpp.o.d -o CMakeFiles/TheDenigifier.dir/mainwindow.cpp.o -c /home/konchan/Programs/TheDenigifier/mainwindow.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TheDenigifier.dir/mainwindow.cpp.o -MF CMakeFiles/TheDenigifier.dir/mainwindow.cpp.o.d -o CMakeFiles/TheDenigifier.dir/mainwindow.cpp.o -c /home/konchan/Programs/TheDenigifier/mainwindow.cpp
 
 CMakeFiles/TheDenigifier.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TheDenigifier.dir/mainwindow.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/konchan/Programs/TheDenigifier/mainwindow.cpp > CMakeFiles/TheDenigifier.dir/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/konchan/Programs/TheDenigifier/mainwindow.cpp > CMakeFiles/TheDenigifier.dir/mainwindow.cpp.i
 
 CMakeFiles/TheDenigifier.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TheDenigifier.dir/mainwindow.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/konchan/Programs/TheDenigifier/mainwindow.cpp -o CMakeFiles/TheDenigifier.dir/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/konchan/Programs/TheDenigifier/mainwindow.cpp -o CMakeFiles/TheDenigifier.dir/mainwindow.cpp.s
+
+CMakeFiles/TheDenigifier.dir/ptom.c.o: CMakeFiles/TheDenigifier.dir/flags.make
+CMakeFiles/TheDenigifier.dir/ptom.c.o: /home/konchan/Programs/TheDenigifier/ptom.c
+CMakeFiles/TheDenigifier.dir/ptom.c.o: CMakeFiles/TheDenigifier.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/konchan/Programs/TheDenigifier/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/TheDenigifier.dir/ptom.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TheDenigifier.dir/ptom.c.o -MF CMakeFiles/TheDenigifier.dir/ptom.c.o.d -o CMakeFiles/TheDenigifier.dir/ptom.c.o -c /home/konchan/Programs/TheDenigifier/ptom.c
+
+CMakeFiles/TheDenigifier.dir/ptom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TheDenigifier.dir/ptom.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/konchan/Programs/TheDenigifier/ptom.c > CMakeFiles/TheDenigifier.dir/ptom.c.i
+
+CMakeFiles/TheDenigifier.dir/ptom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TheDenigifier.dir/ptom.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/konchan/Programs/TheDenigifier/ptom.c -o CMakeFiles/TheDenigifier.dir/ptom.c.s
 
 # Object files for target TheDenigifier
 TheDenigifier_OBJECTS = \
 "CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/TheDenigifier.dir/main.cpp.o" \
-"CMakeFiles/TheDenigifier.dir/mainwindow.cpp.o"
+"CMakeFiles/TheDenigifier.dir/mainwindow.cpp.o" \
+"CMakeFiles/TheDenigifier.dir/ptom.c.o"
 
 # External object files for target TheDenigifier
 TheDenigifier_EXTERNAL_OBJECTS =
@@ -129,6 +144,7 @@ TheDenigifier_EXTERNAL_OBJECTS =
 TheDenigifier: CMakeFiles/TheDenigifier.dir/TheDenigifier_autogen/mocs_compilation.cpp.o
 TheDenigifier: CMakeFiles/TheDenigifier.dir/main.cpp.o
 TheDenigifier: CMakeFiles/TheDenigifier.dir/mainwindow.cpp.o
+TheDenigifier: CMakeFiles/TheDenigifier.dir/ptom.c.o
 TheDenigifier: CMakeFiles/TheDenigifier.dir/build.make
 TheDenigifier: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 TheDenigifier: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
@@ -136,7 +152,7 @@ TheDenigifier: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 TheDenigifier: /usr/lib/x86_64-linux-gnu/libGLX.so
 TheDenigifier: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 TheDenigifier: CMakeFiles/TheDenigifier.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/konchan/Programs/TheDenigifier/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable TheDenigifier"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/konchan/Programs/TheDenigifier/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable TheDenigifier"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TheDenigifier.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

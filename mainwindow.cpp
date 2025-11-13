@@ -143,7 +143,6 @@ void MainWindow::browseInputFile()
     if (!filePath.isEmpty()) {
         m_inputFilePath = filePath;
         inputFileLineEdit->setText(filePath);
-
         logMessage("Input file selected: " + filePath);
 
         // Auto-generate output filename
@@ -151,7 +150,6 @@ void MainWindow::browseInputFile()
         QString outputPath = inputInfo.path() + "/" + inputInfo.completeBaseName() + "_deobfuscated." + inputInfo.suffix();
         m_outputFilePath = outputPath;
         outputFileLineEdit->setText(outputPath);
-
         logMessage("Output file auto-generated: " + outputPath);
 
         // Enable process button
@@ -192,9 +190,26 @@ void MainWindow::processFiles()
         QMessageBox::critical(this, "Error", "Input file does not exist!");
         return;
     }
-    ptom_init();
 
-    ptom_parse(m_outputFilePath,m_inputFilePath);
+    if(ptom_init() == 0)
+    {
+        logMessage("Initialization failed\n");
+	}
+    QByteArray out_file = m_outputFilePath.toUtf8();
+    QByteArray in_file = m_inputFilePath.toUtf8();
+
+    if(ptom_parse(out_file.data(),in_file.data())) {
+        logMessage("Converstion Succesful");
+    } 
+    else {
+        logMessage("Converstion Failed");
+    }
+
+	
+	
+	ptom_deinit();
+	 
+
     logMessage("Starting deobfuscation process...");
     logMessage("Input: " + m_inputFilePath);
     logMessage("Output: " + m_outputFilePath);
@@ -202,53 +217,13 @@ void MainWindow::processFiles()
     // Disable process button during operation
     processButton->setEnabled(false);
 
-    // Process the files
-    processDeobfuscation();
+    
+   
 
     // Re-enable process button
     processButton->setEnabled(true);
 }
 
-void MainWindow::processDeobfuscation()//implement here instead of in the object click
-{
-    try {
-        // TODO: Replace this with your actual deobfuscation logic
-        logMessage("Reading input file...");
-
-        QFile inputFile(m_inputFilePath);
-        if (!inputFile.open(QIODevice::ReadOnly)) {
-            throw std::runtime_error("Cannot open input file for reading");
-        }
-
-        QByteArray fileData = inputFile.readAll();
-        inputFile.close();
-
-        logMessage(QString("Read %1 bytes from input file").arg(fileData.size()));
-
-        // Simulate deobfuscation process
-        logMessage("Processing data...");
-
-        // For now, just copy the file as a placeholder
-        QFile outputFile(m_outputFilePath);
-        if (!outputFile.open(QIODevice::WriteOnly)) {
-            throw std::runtime_error("Cannot open output file for writing");
-        }
-
-        outputFile.write(fileData);
-        outputFile.close();
-
-        logMessage("Deobfuscation completed successfully!");
-        logMessage(QString("Output written to: %1").arg(m_outputFilePath));
-
-        QMessageBox::information(this, "Success",
-                                 QString("Deobfuscation completed!\n\nOutput file: %1").arg(m_outputFilePath));
-
-    } catch (const std::exception &e) {
-        logMessage(QString("Error: %1").arg(e.what()));
-        QMessageBox::critical(this, "Error",
-                              QString("Deobfuscation failed:\n%1").arg(e.what()));
-    }
-}
 
 void MainWindow::clearLog()
 {

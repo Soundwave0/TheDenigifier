@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TheDenigifier.dir/main.cpp.o.d"
   "CMakeFiles/TheDenigifier.dir/mainwindow.cpp.o"
   "CMakeFiles/TheDenigifier.dir/mainwindow.cpp.o.d"
+  "CMakeFiles/TheDenigifier.dir/ptom.c.o"
+  "CMakeFiles/TheDenigifier.dir/ptom.c.o.d"
   "TheDenigifier"
   "TheDenigifier.pdb"
   "TheDenigifier_autogen/mocs_compilation.cpp"
@@ -15,6 +17,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C CXX)
   include(CMakeFiles/TheDenigifier.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()
